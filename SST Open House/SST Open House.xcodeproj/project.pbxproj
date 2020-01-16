@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C77A45161543E233004484C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77A45151543E233004484C9 /* UIKit.framework */; };
+		C77A45181543E233004484C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77A45171543E233004484C9 /* Foundation.framework */; };
+		C77A451A1543E233004484C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77A45191543E233004484C9 /* CoreGraphics.framework */; };
+		C77A45201543E233004484C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C77A451E1543E233004484C9 /* InfoPlist.strings */; };
+		C77A45221543E233004484C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C77A45211543E233004484C9 /* main.m */; };
+		C77A45261543E233004484C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C77A45251543E233004484C9 /* AppDelegate.m */; };
+		C77A45291543E233004484C9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77A45271543E233004484C9 /* MainStoryboard.storyboard */; };
+		C77A452C1543E233004484C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77A452B1543E233004484C9 /* ViewController.m */; };
+		C77A453B1543E70D004484C9 /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A45331543E70D004484C9 /* BackButton.png */; };
+		C77A453C1543E70D004484C9 /* BackButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A45341543E70D004484C9 /* BackButton2.png */; };
+		C77A453D1543E70D004484C9 /* Events_Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A45351543E70D004484C9 /* Events_Button1.png */; };
+		C77A453E1543E70D004484C9 /* Events_Button2.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A45361543E70D004484C9 /* Events_Button2.png */; };
+		C77A453F1543E70D004484C9 /* Feedback_Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A45371543E70D004484C9 /* Feedback_Button1.png */; };
+		C77A45401543E70D004484C9 /* Feedback_Button2.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A45381543E70D004484C9 /* Feedback_Button2.png */; };
+		C77A45411543E70D004484C9 /* Maps_Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A45391543E70D004484C9 /* Maps_Button1.png */; };
+		C77A45421543E70D004484C9 /* Maps_Button2.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A453A1543E70D004484C9 /* Maps_Button2.png */; };
+		C77A45461543EB12004484C9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A45451543EB12004484C9 /* Default@2x.png */; };
+		C77A45471543EBFB004484C9 /* Default@2x.png in Frameworks */ = {isa = PBXBuildFile; fileRef = C77A45451543EB12004484C9 /* Default@2x.png */; settings = {ATTRIBUTES = (Required, ); }; };
+		C77A454915440989004484C9 /* SST Open House Icon HD.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A454815440989004484C9 /* SST Open House Icon HD.png */; };
+		C77A454B1544098F004484C9 /* SST Open House Icon SD.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A454A1544098F004484C9 /* SST Open House Icon SD.png */; };
+		C77A454D15440C94004484C9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A454C15440C94004484C9 /* Default.png */; };
+		C77A454F1544129E004484C9 /* ThanksForFeedback.png in Resources */ = {isa = PBXBuildFile; fileRef = C77A454E1544129E004484C9 /* ThanksForFeedback.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C77A45111543E233004484C9 /* SST Open House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SST Open House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77A45151543E233004484C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C77A45171543E233004484C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C77A45191543E233004484C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C77A451D1543E233004484C9 /* SST Open House-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SST Open House-Info.plist"; sourceTree = "<group>"; };
+		C77A451F1543E233004484C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C77A45211543E233004484C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C77A45231543E233004484C9 /* SST Open House-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SST Open House-Prefix.pch"; sourceTree = "<group>"; };
+		C77A45241543E233004484C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C77A45251543E233004484C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C77A45281543E233004484C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C77A452A1543E233004484C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C77A452B1543E233004484C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C77A45331543E70D004484C9 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
+		C77A45341543E70D004484C9 /* BackButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton2.png; sourceTree = "<group>"; };
+		C77A45351543E70D004484C9 /* Events_Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Events_Button1.png; sourceTree = "<group>"; };
+		C77A45361543E70D004484C9 /* Events_Button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Events_Button2.png; sourceTree = "<group>"; };
+		C77A45371543E70D004484C9 /* Feedback_Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feedback_Button1.png; sourceTree = "<group>"; };
+		C77A45381543E70D004484C9 /* Feedback_Button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Feedback_Button2.png; sourceTree = "<group>"; };
+		C77A45391543E70D004484C9 /* Maps_Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maps_Button1.png; sourceTree = "<group>"; };
+		C77A453A1543E70D004484C9 /* Maps_Button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maps_Button2.png; sourceTree = "<group>"; };
+		C77A45451543EB12004484C9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C77A454815440989004484C9 /* SST Open House Icon HD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SST Open House Icon HD.png"; sourceTree = "<group>"; };
+		C77A454A1544098F004484C9 /* SST Open House Icon SD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SST Open House Icon SD.png"; sourceTree = "<group>"; };
+		C77A454C15440C94004484C9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C77A454E1544129E004484C9 /* ThanksForFeedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThanksForFeedback.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C77A450E1543E233004484C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77A45161543E233004484C9 /* UIKit.framework in Frameworks */,
+				C77A45181543E233004484C9 /* Foundation.framework in Frameworks */,
+				C77A45471543EBFB004484C9 /* Default@2x.png in Frameworks */,
+				C77A451A1543E233004484C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C77A45061543E233004484C9 = {
+			isa = PBXGroup;
+			children = (
+				C77A454C15440C94004484C9 /* Default.png */,
+				C77A454A1544098F004484C9 /* SST Open House Icon SD.png */,
+				C77A454815440989004484C9 /* SST Open House Icon HD.png */,
+				C77A45451543EB12004484C9 /* Default@2x.png */,
+				C77A451B1543E233004484C9 /* SST Open House */,
+				C77A45141543E233004484C9 /* Frameworks */,
+				C77A45121543E233004484C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C77A45121543E233004484C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C77A45111543E233004484C9 /* SST Open House.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C77A45141543E233004484C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C77A45151543E233004484C9 /* UIKit.framework */,
+				C77A45171543E233004484C9 /* Foundation.framework */,
+				C77A45191543E233004484C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C77A451B1543E233004484C9 /* SST Open House */ = {
+			isa = PBXGroup;
+			children = (
+				C77A45241543E233004484C9 /* AppDelegate.h */,
+				C77A45251543E233004484C9 /* AppDelegate.m */,
+				C77A45271543E233004484C9 /* MainStoryboard.storyboard */,
+				C77A452A1543E233004484C9 /* ViewController.h */,
+				C77A452B1543E233004484C9 /* ViewController.m */,
+				C77A45321543E505004484C9 /* Image Files */,
+				C77A451C1543E233004484C9 /* Supporting Files */,
+			);
+			path = "SST Open House";
+			sourceTree = "<group>";
+		};
+		C77A451C1543E233004484C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77A451D1543E233004484C9 /* SST Open House-Info.plist */,
+				C77A451E1543E233004484C9 /* InfoPlist.strings */,
+				C77A45211543E233004484C9 /* main.m */,
+				C77A45231543E233004484C9 /* SST Open House-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C77A45321543E505004484C9 /* Image Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77A454E1544129E004484C9 /* ThanksForFeedback.png */,
+				C77A45331543E70D004484C9 /* BackButton.png */,
+				C77A45341543E70D004484C9 /* BackButton2.png */,
+				C77A45351543E70D004484C9 /* Events_Button1.png */,
+				C77A45361543E70D004484C9 /* Events_Button2.png */,
+				C77A45371543E70D004484C9 /* Feedback_Button1.png */,
+				C77A45381543E70D004484C9 /* Feedback_Button2.png */,
+				C77A45391543E70D004484C9 /* Maps_Button1.png */,
+				C77A453A1543E70D004484C9 /* Maps_Button2.png */,
+			);
+			name = "Image Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C77A45101543E233004484C9 /* SST Open House */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77A452F1543E233004484C9 /* Build configuration list for PBXNativeTarget "SST Open House" */;
+			buildPhases = (
+				C77A450D1543E233004484C9 /* Sources */,
+				C77A450E1543E233004484C9 /* Frameworks */,
+				C77A450F1543E233004484C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SST Open House";
+			productName = "SST Open House";
+			productReference = C77A45111543E233004484C9 /* SST Open House.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C77A45081543E233004484C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C77A450B1543E233004484C9 /* Build configuration list for PBXProject "SST Open House" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C77A45061543E233004484C9;
+			productRefGroup = C77A45121543E233004484C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C77A45101543E233004484C9 /* SST Open House */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C77A450F1543E233004484C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77A45201543E233004484C9 /* InfoPlist.strings in Resources */,
+				C77A45291543E233004484C9 /* MainStoryboard.storyboard in Resources */,
+				C77A453B1543E70D004484C9 /* BackButton.png in Resources */,
+				C77A453C1543E70D004484C9 /* BackButton2.png in Resources */,
+				C77A453D1543E70D004484C9 /* Events_Button1.png in Resources */,
+				C77A453E1543E70D004484C9 /* Events_Button2.png in Resources */,
+				C77A453F1543E70D004484C9 /* Feedback_Button1.png in Resources */,
+				C77A45401543E70D004484C9 /* Feedback_Button2.png in Resources */,
+				C77A45411543E70D004484C9 /* Maps_Button1.png in Resources */,
+				C77A45421543E70D004484C9 /* Maps_Button2.png in Resources */,
+				C77A45461543EB12004484C9 /* Default@2x.png in Resources */,
+				C77A454915440989004484C9 /* SST Open House Icon HD.png in Resources */,
+				C77A454B1544098F004484C9 /* SST Open House Icon SD.png in Resources */,
+				C77A454D15440C94004484C9 /* Default.png in Resources */,
+				C77A454F1544129E004484C9 /* ThanksForFeedback.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C77A450D1543E233004484C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77A45221543E233004484C9 /* main.m in Sources */,
+				C77A45261543E233004484C9 /* AppDelegate.m in Sources */,
+				C77A452C1543E233004484C9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C77A451E1543E233004484C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77A451F1543E233004484C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C77A45271543E233004484C9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77A45281543E233004484C9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C77A452D1543E233004484C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C77A452E1543E233004484C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C77A45301543E233004484C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SST Open House/SST Open House-Prefix.pch";
+				INFOPLIST_FILE = "SST Open House/SST Open House-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C77A45311543E233004484C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SST Open House/SST Open House-Prefix.pch";
+				INFOPLIST_FILE = "SST Open House/SST Open House-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C77A450B1543E233004484C9 /* Build configuration list for PBXProject "SST Open House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77A452D1543E233004484C9 /* Debug */,
+				C77A452E1543E233004484C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77A452F1543E233004484C9 /* Build configuration list for PBXNativeTarget "SST Open House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77A45301543E233004484C9 /* Debug */,
+				C77A45311543E233004484C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C77A45081543E233004484C9 /* Project object */;
+}
